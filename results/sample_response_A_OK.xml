@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://example.com/sample">
+  <soapenv:Body>
+    <ns:getUserDataResponse>
+      <ns:userId>USER-A</ns:userId>
+      <ns:requestKey>TEST-A-000001</ns:requestKey>
+      <ns:name>Alice</ns:name>
+    </ns:getUserDataResponse>
+  </soapenv:Body>
+</soapenv:Envelope>
